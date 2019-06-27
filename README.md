@@ -1,2 +1,2 @@
 # learnyounode
-My stumbuling way through learn you node exercises XD
+My stumbling way through learn you node exercises XD
