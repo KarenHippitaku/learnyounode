@@ -7,7 +7,7 @@ let ext = process.argv[3]; //the dot it´s not given, so if you don´t add it th
 
 //opc 1
 myModule(ls, ext, (err, list) => { //now it works
-  if (err) {
+  if (err) { //curly brackets help improve the code reading but they are not strictly necessary
     console.error('Someone fuck it up', err);
   }
     list.forEach((file) => { //This line was missing, so it didn´t have a place to took the files from
